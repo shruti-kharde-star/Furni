@@ -1,0 +1,412 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+}
+.wrapper {
+    height: 100%;
+    width: 100%;
+    /* background-color: #1b4332; */
+    background-image: url(/img.avif);
+    background-position:center;
+    background-size:cover;
+}
+
+.nav {
+    height: 100px;
+    width: 100%;
+    /* background-color: darkcyan; */
+    display: flex;
+}
+
+.left-nav {
+    height: 100%;
+    width: 30%;
+    /* background-color: lightcoral; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 7vw;
+    color: white;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.right-nav {
+    height: 100%;
+    width: 70%;
+    /* background-color: lightgreen; */
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    color: rgb(180, 176, 176);
+    
+}
+
+.right-nav a {
+   padding: 0 1vw;
+   font-size: 1.2vw;
+   font-weight: 300;
+   text-decoration: none;
+   color: rgb(180, 176, 176);
+}
+
+#H {
+    color: white;
+    border-bottom: 1.8px solid yellow;
+    
+}
+
+.right-nav i {
+    padding: 0 1vw;
+    font-size: 1.6svw;
+}
+
+.box {
+    width: 100%;
+    height: 86%;
+    /* background-color: darkmagenta; */
+    display: flex;
+    
+}
+    
+.left-box {
+    height: 100%;
+    width: 40%;
+    /* background-color: lightsalmon; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 7vw;
+
+}
+
+.heading {
+    font-size: 2vw;
+    padding-bottom: 2vw;
+    font-weight: 100;
+    color: white;
+}
+
+.left-box p {
+    font-size: 1.2vw;
+    font-weight: 200;
+    padding-bottom: 2vw;
+    color: white;
+}
+
+.button-box {
+    display: flex;
+}
+
+.button-box button {
+    height: 4vh;
+    width: 8vw;
+    border-radius: 50px;
+}
+
+.shop {
+    border: none;
+    background-color: yellow;
+    font-size: 15px;
+}
+
+.explore {
+    border: 2px solid white;
+    background-color: transparent;
+    font-size: 15px;
+    color: white;
+    margin-left: 1vw;
+}
+
+.chair-box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 4vh 3vw;
+}
+
+.chair {
+    height: 55vh;
+    width: 20%;
+    /* background-color: darkseagreen; */
+    display: flex;
+    flex-direction: column;
+   
+   
+}
+
+.upper-chair {
+    height: 75%;
+    width: 100%;
+    /* background-color: lightcoral; */
+    /* padding: 1vh 3vw; */
+}
+
+.upper-chair img {
+    height: 100%;
+    width: 100%;
+}
+
+.upper-chair h1 {
+    font-size: 3vw;
+    font-weight: 500;
+}
+
+.upper-chair p {
+    padding-top: 2.8vh;
+    font-size: 1.1vw;
+}
+
+.lower-chair {
+    height: 25%;
+    width: 100%;
+    /* background-color: lightsalmon; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lower-chair button {
+    height: 6vh;
+    width: 8vw;
+    background-color: black;
+    border-radius: 50px;
+    color: white;
+    border: none;
+    font-size: 16px;
+}
+
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: .8vw;
+}
+
+.choice-box {
+    height: 80vh;
+    width: 100%;
+    /* background-color: darkorange; */
+    display: flex;
+    padding-left: 5vw;
+}
+
+.left {
+    height: 100%;
+    width: 50%;
+    /* background-color: lightcoral; */
+}
+
+.top {
+    height:20vh;
+    width: 100;
+    /* background-color: lightgreen; */
+    padding-left: 1vw;
+    padding-top: 2vh;
+}
+
+.top h2 {
+    font-size: 2.5vw;
+    font-weight: 400;
+    padding-bottom: 1vh;
+}
+
+.bottom {
+    height: 25vh;
+    width: 100%;
+    /* background-color: darkcyan; */
+    display: flex;
+}
+
+.bottom-left {
+    height: 100%;
+    width: 50%;
+    /* background-color: lightsalmon; */
+    padding-left: 1vw;
+    padding-top: 2vh;
+}
+
+.bottom-left i {
+    font-size: 2vw;
+    padding-bottom: 1vh;
+}
+
+.bottom-left h4 {
+    font-size: 1.4vw;
+    padding-bottom: 1vh;
+}
+
+.bottom-right {
+    height: 100%;
+    width: 50%;
+    /* background-color: lightskyblue; */
+    padding-left: 1vw;
+    padding-top: 2vh; 
+}
+
+.bottom-right i {
+    font-size: 2vw;
+    padding-bottom: 1vh;
+}
+
+
+.right {
+    height: 100%;
+    width: 50%;
+    /* background-color: lightsalmon; */
+}
+
+.right img {
+    height: 90%;
+    width: 90%;
+    padding-left: 2vw;
+    padding-top: 4vh;
+}
+
+
+.help {
+    height: 80vh;
+    width: 100%;
+    /* background-color: darkcyan; */
+    display: flex;
+}
+
+.left-help {
+    height: 100%;
+    width: 55%;
+    display: flex;
+    /* background-color: lightcoral; */
+    position: relative;
+    margin-right: 1.8vw;
+}
+
+.sofa {
+    height: 80%;
+    width: 70%;
+    /* background-color: red; */
+    margin-left: 5vw;
+    border-radius: 10px;
+   
+}
+
+.desk {
+    height: 30%;
+    width: 20%;
+    margin-left: 1.1vw;
+    border-radius: 5px;
+    
+}
+
+.table {
+    height: 50%;
+    width: 30%;
+    margin-left: 1.4vw;
+    border-radius: 6px;
+    position: absolute;
+    right: 0.2vw;
+    bottom: 6.5vw;
+
+}
+
+.right-help {
+    height: 100%;
+    width: 45%;
+    /* background-color: lightsalmon; */
+    padding-left: 1vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-help h2 {
+    font-size: 4vw;
+    font-weight: 500;
+    line-height: 1;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+
+.para{
+    font-size: 1.2vw;
+    font-weight: 400;
+    padding-bottom: 4vh;
+}
+
+
+.option {
+    display: flex;
+}
+
+.option1 p i {
+    font-size: .8vw;
+}
+
+.button1 {
+    padding-top: 5vh;
+   }
+
+.button1 button {
+    height: 6vh;
+    width: 8vw;
+    background-color: black;
+    border-radius: 50px;
+    color: white;
+    font-size: 1.3vw;
+    border:none;
+}
+
+
+.bottom-box {
+    height: 35vh;
+    width: 100%;
+    /* background-color: darkorchid; */
+    display: flex;
+    padding-left: 3vw;
+}
+
+.chair1 {
+    height: 90%;
+    width: 36%;
+    /* background-color: lightcoral; */
+    margin: 2.5vh 1vw;
+    display: flex;
+}
+
+.img {
+    height: 100%;
+    width: 50%;
+    /* background-color: aqua; */
+    padding-right: 2vw;
+}
+
+.img img {
+    height: fit-content;
+    width: 100%;
+}
+
+.data {
+    height: 100%;
+    width: 50%;
+    /* background-color: lightsalmon; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.data h2 {
+    padding-bottom: .3vw;
+}
+
+.data h3 {
+    padding-top: 1vw;
+}
